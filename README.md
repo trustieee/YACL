@@ -25,7 +25,7 @@ Getting Started
 		using System.Text;
 		using YACL;
 
-		namespace drep4.Commands
+		namespace MyApp.Commands
 		{
 		    public class FooCommand : CommandBase
 		    {
@@ -60,7 +60,7 @@ Getting Started
 		            get
 		            {
 		                var usage = new StringBuilder();
-		                usage.AppendFormat("drep4.exe foo arg1=value arg2=value");
+		                usage.AppendFormat(myApp.exe foo arg1=value arg2=value");
 		                return usage.ToString();
 		            }
 		        }
