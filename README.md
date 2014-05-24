@@ -1,8 +1,10 @@
-== YACL
+YACL
+===
 
 		Yet Another Command Line
 
-== Getting Started
+Getting Started
+===
 
 1. Create a new C# console application
 
@@ -72,7 +74,7 @@
 		        }
 		    }
 		}
-		
+
 7. Then to use this command on the command line, simply run your application with arguments like this:
 
 		app.exe foo arg1=hello arg2=world
