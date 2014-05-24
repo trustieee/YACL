@@ -8,10 +8,13 @@
 2. Add a reference to YACL
 3. Derive your class with Main in it from YACL.ApplicationBase
 4. In your Main, do the following:
+
 		var app = new Program();
 		app.Start(args);
+		
 5. Anywhere in the same assembly with Main, create classes that derive from YACL.CommandBase
 6. Here's an example implementation of a YACL Command
+
 		using System;
 		using System.Text;
 		using YACL;
@@ -66,4 +69,5 @@
 		    }
 		}
 7. Then to use this command on the command line, simply run your application with arguments like this:
+
 		app.exe foo arg1=hello arg2=world
